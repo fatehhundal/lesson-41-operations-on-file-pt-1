@@ -1,0 +1,22 @@
+file = open("assignment_doc.txt", "r")
+print("Document:")
+print(file.read())
+file.close()
+
+file = open("assignment_doc.txt", "r")
+print("\nFirst 10 characters:")
+print(file.read(8))
+file.close()
+
+file = open("assignment_doc.txt", "r")
+print("\nFirst line:")
+print(file.readline())
+file.close()
+
+file = open("assignment_doc.txt", "r")
+print("\nFirst four lines:")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
